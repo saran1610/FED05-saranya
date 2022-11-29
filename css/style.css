@@ -25,29 +25,34 @@ header{
 	width:80%;
 	height:auto;
 	display:flex;
-	justify-content:space-around;
-	align-items:center;
+	justify-content:flex-start;
+	/* align-items:center; */
+	flex-wrap:wrap;
+	gap:20px;
 }
 .card{
-	width:100%;
+	width:20%;
 	height:300px;
-	flex-flow:row wrap;
+	/* flex-wrap:wrap; */
 	
 }
 .image2 img{
 	width:200px;
-	height:300px;
+	height:250px;
 }
 .image3 img{
 	width:200px;
-	height:300px;
+	height:250px;
 }
 .image4 img{
 	width:200px;
-	height:300px;
+	height:250px;
 }
 .image5 img{
 	width:200px;
-	height:300px;
+	height:250px;
 }
-
+.image6 img{
+	width:200px;
+	height:250px;
+}
